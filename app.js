@@ -45,7 +45,7 @@ onAuthStateChanged(auth, (user) => {
     user_info.innerHTML = user.email;
     // ...
   } else {
-    console.log("user is not logged in");
+    // console.log("user is not logged in");
     auth_container.style.display = "block";
     dashboard.style.display = "none";
     // User is signed out
