@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 30px;
+    padding: 20px;
+    background-image: url("images/nightsky.jpg");
+}
+#authentication-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    line-height: 60px;
+}
+#authentication-container p
+{
+    color: aqua;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: -20px;
+}
+#authentication-container p input
+{
+    width: 250px;
+    height: 30px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #151b54;
+    color: aqua;
+}
+#authentication-container p input:focus
+{
+    border: 2px solid aqua;
+}
+#authentication-container h2
+{
+    color: aqua;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+h3
+{
+    color: aqua;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+}
+button
+{
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: aqua;
+    background-color: #151b54;
+}
+#logout button
+{
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: aqua;
+    background-color: #151b54
+}
